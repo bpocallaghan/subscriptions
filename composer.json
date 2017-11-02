@@ -1,0 +1,35 @@
+{
+    "name": "bpocallaghan/subscriptions",
+    "description": "Add Subscription Plans to your laravel admin project - https://github.com/bpocallaghan/laravel-admin-starter",
+    "keywords": [
+        "laravel",
+        "admin",
+        "cms",
+        "subscription",
+        "plans",
+        "billing",
+        "subscriptions"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben-Piet O'Callaghan",
+            "email": "bpocallaghan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bpocallaghan\\Subscriptions\\": "app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bpocallaghan\\Subscriptions\\SubscriptionsServiceProvider"
+            ]
+        }
+    }
+}
